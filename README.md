@@ -24,7 +24,7 @@ multiply_by_two(10)
 ## [1] 20
 ```
 
-The adblockr package offers the `freely` adverb, which offers you an ad-free experience:
+The adblockr package offers the `freely` adverb, which converts the `multiply_by_two` function back to give you an ad-free experience:
 
 
 ```r
@@ -39,7 +39,7 @@ multiply_by_two(5)
 ## [1] 10
 ```
 
-It also allows a `block_all` function for removing all ads from a package. For example, once the next version of broom has ads added to it, you can block all ads in the package with:
+The package also includes the `block_all` function for removing all ads from a package. For example, once the next version of broom is monetized, you can block all ads in the package with:
 
 
 ```r
