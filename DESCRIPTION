@@ -1,0 +1,16 @@
+Package: adblockr
+Type: Package
+Title: Remove ads from a package that has been monetizd
+Version: 0.1
+Date: 2016-04-01
+Authors@R: person("David", "Robinson", email = "admiral.david@gmail.com", role = c("aut", "cre"))
+Description: Remove ads from a function or package that uses the monetizr
+    package, providing an ad-free experience.
+License: MIT + file LICENSE
+LazyData: TRUE
+Authors: David Robinson <admiral.david@gmail.com> [aut, cre]
+URL: http://github.com/dgrtwo/adblockr
+BugReports: http://github.com/dgrtwo/adblockr/issues
+Suggests:
+    monetizr
+RoxygenNote: 5.0.1
