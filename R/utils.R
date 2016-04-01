@@ -8,8 +8,6 @@
 #' @param f Function to wrap every other function with
 #' @param env Environment to look for functions to wrap
 #' @param ... Extra arguments to pass to the wrapping function
-#'
-#' @export
 wrap_all_functions <- function(f, env = parent.frame(), ...) {
   funcs <- mget(ls(envir = env), envir = env, mode = "function",
                 ifnotfound = NA)

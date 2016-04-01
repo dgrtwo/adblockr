@@ -2,4 +2,3 @@
 
 export(block_all)
 export(freely)
-export(wrap_all_functions)
